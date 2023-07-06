@@ -23,7 +23,7 @@ class DatosDui extends StatelessWidget {
                 width: double.infinity,
                 child: const Image(
                   image: AssetImage(
-                      'lib/assets/images/Tse_logo.png'), // Ruta de la imagen desde los recursos locales
+                      'assets/images/Tse_logo.png'), // Ruta de la imagen desde los recursos locales
                   width: 100, // Ancho deseado de la imagen
                   height: 100, // Alto deseado de la imagen
                 ),

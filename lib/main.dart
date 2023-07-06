@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proyecto_eleccion_electorales/config/theme/app_theme.dart';
 import 'package:proyecto_eleccion_electorales/presentation/pages/datos_dui.dart';
 import 'package:proyecto_eleccion_electorales/presentation/pages/verificar_dui.dart';
 
@@ -19,9 +20,7 @@ class MyApp extends StatelessWidget {
       },
       title: 'Formulario Flutter',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: AppTheme(selectedColor: 2).theme(),
       home: const VerificarDui(),
     );
   }
